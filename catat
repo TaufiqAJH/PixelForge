@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PixelForge</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+   
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">PixelForge</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Modpacks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Worlds</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              More
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Resource Packs</a></li>
+              <li><a class="dropdown-item" href="#">Shaders</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h1>Welcome to PixelForge!</h1>
+    <p>Your ultimate hub for Minecraft modpacks and worlds.</p>
+  </div>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+<!-- bawah navbar
+  -->
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- RP -->
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="container">
+  <div class="row justify-content-center">
+
+
+<div class="col col-md-4 mb-4">
+  <div class="card h-100">
+    <img src="FreshAnimation.webp" class="card-img-top" alt="FreshAnimation">
+    <div class="card-body">
+      <h5 class="card-title">FreshAnimation</h5>
+      <p class="card-text">Make your game like the trailers! Dynamic animated entities to freshen your Minecraft
+        experience. <b>(Required optifine or Emf)</p>
+          <a href="FreshAnimations_v1.9.3.zip" download class="btn btn-success">Download</a>
+    </div>
+  </div>
+</div>
+<!-- Card 2 -->
+<div class="col col-md-4 mb-4">
+  <div class="card h-100">
+    <img src="BareBonescover.webp" class="card-img-top" alt="BareBones">
+    <div class="card-body">
+      <h5 class="card-title">BareBones</h5>
+      <p class="card-text">Bare Bones is a texture pack with the purpose of bringing your world and the default
+        Minecraft textures to it's 'bare bones'</p>
+        <a href="Bare Bones 1.21.5.zip" download class="btn btn-success">Download</a>
+    </div>
+  </div>
+</div>
+
+<div class="col col-md-4 mb-4">
+  <div class="card h-100">
+    <img src="DramaticSkycover.webp" class="card-img-top" alt="BareBones">
+    <div class="card-body">
+      <h5 class="card-title">Dramatic Skys</h5>
+      <p class="card-text">Dramatic Skys is an add on pack that will make the skies in your game HD with
+        realistic clouds and lighting.</p>
+        <a href="Dramatic Skys Demo 1.5.3.33.zip" download class="btn btn-success">Download</a>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+</div>
+</section>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VOGUE Footer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #fff;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .social-icons {
+      margin-bottom: 20px;
+    }
+
+    .social-icons a {
+      color: #fff;
+      font-size: 24px;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .footer-links {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .footer-links a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .copyright {
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="footer-links">
+    <a href="#">ABOUT US</a> |
+    <a href="#">CONTACT</a> |
+    <a href="#">MEMBERSHIP</a> |
+    <a href="#">COMMERCIAL</a> |
+    <a href="#">NEWSLETTER</a> |
+    <a href="#">TERMS OF SERVICE</a> |
+    <a href="#">PRIVACY POLICY</a> |
+    <a href="#">DO NOT SELL MY PERSONAL INFO</a>
+  </div>
+  <div class="copyright">
+
+</body>
+</html>
